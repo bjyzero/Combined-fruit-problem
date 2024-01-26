@@ -50,3 +50,8 @@ int main(void)
 //     return a > b;
 //   };
 //priority_queue<int, vector<int>, decltype(compare)> pq(compare);
+
+//方法三: -->代码中所用方法
+//如果优先队列中的元素类型比较简单，可以直接使用 greater<T>来修改比较方法
+//priority_queue<int, vector<int>, greater<int>> pq;
+//std::greater函数对象定义在<functional>头文件中。
