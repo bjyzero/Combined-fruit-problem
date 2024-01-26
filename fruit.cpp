@@ -35,8 +35,8 @@ int main(void)
 //后续我们拓展一下priority_queue修改比较函数的两种方法(大根堆-->小根堆)
 //方法一：仿函数-->实际上写了一个类，看起来像函数
 //struct Compare{
-//    bool operator () (int a, int b)     *重载括号运算符 *其中int数据类型是根据main()中队列类型设定的
-//    {
+//    bool operator () (int a, int b)     *重载括号运算符
+//    {                                   *其中int数据类型是根据main()中队列类型设定的
 //       return a > b;
 //    }
 //  };
